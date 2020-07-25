@@ -44,6 +44,3 @@ It creates the following variables:
 Demeyere, N., Haupt, M., Webb, S. S., Strobel, L., Milosevich, E., Moore, M. J., . . . Duta, M. (2020). The Oxford Cognitive Screen–Plus (OCS-Plus): a tablet based short cognitive screening tool for milder cognitive impairment.
 Mark, V. W., Woods, A., Ball, K., Roth, D. L., & Mennemeier, M. (2004). Disorganized search on cancellation is not a consequence of neglect. Neurology, 63(1), 78-84. 
 Rabuffetti et al.(2012). Spatio-Temporal Features of Visual Exploration in Unilaterally Brain-Damaged Subjects withor without Neglect: Results from a Touchscreen Test. PLoS ONE, 7(2),e31511. doi:10.1371/journal.pone.0031511
-
-
-
