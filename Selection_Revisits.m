@@ -15,17 +15,13 @@ function [falsepositives, correct_revisits, falsepos_revisits, ...
     %... correct revisits
     alltargets              = targets == targets';
     uniquetargets           = unique(targets == targets', 'rows');
-    cAll                    = size(alltargets);
-    cUn                     = size(uniquetargets);
-    correct_revisits        = cAll(1) - cUn(1);
+    correct_revisits        = size(alltargets, 1) - size(uniquetargets, 1);
     
     %... false postives & false positive revisits
     alldistractors          = distractors == distractors';
     uniquedistractors       = unique(distractors == distractors', 'rows');
-    fpAll                   = size(alldistractors);
-    fpUn                    = size(uniquedistractors);
-    falsepositives          = fpUn(1);
-    falsepos_revisits       = fpAll(1) - fpUn(1);
+    falsepositives          = size(uniquedistractors, 1);
+    falsepos_revisits       = size(alldistractors, 1) - size(uniquedistractors, 1);
     
     %... total revisits
     total_revisits          = correct_revisits + falsepos_revisits;
