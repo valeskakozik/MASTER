@@ -3,7 +3,7 @@
 % - - Valeska Kozik, 15.05.2020
 % - - valeskakozik@gmail.com
 
-function [bestR] = Selection_bestR(taps)
+function bestR = Selection_bestR(taps)
 
 %... to set in relation to order of markings:
 z = 1:length(taps);
