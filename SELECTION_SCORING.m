@@ -87,7 +87,7 @@ end
      SELECTION_SCORED = [SELECTION_SCORED; S];
  end
  
- clearvars -except i fDir SELECTION_SCORED
+ clearvars -except i fDir ddir SELECTION_SCORED
 
 end
 
