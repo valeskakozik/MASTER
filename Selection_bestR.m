@@ -9,13 +9,12 @@ function bestR = Selection_bestR(taps)
 z = 1:length(taps);
 z = z';
 
-%... Linear regression of the x-coordinates
+%... X & Y coordinates
 [X{1:length(taps),1}] = taps.y;
 X = cell2mat(X);
 
 [Y{1:length(taps),1}] = taps.x;
 Y = cell2mat(Y);
-
 
 %... R & best r 
 rX = corrcoef(z,X);
